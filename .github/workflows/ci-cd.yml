@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Run tests
-        run: npm run test -- --coverage --run
+        run: npm run test -- --coverage
         # `--run` ensures vitest runs once and exits instead of watch mode
 
   deploy:
