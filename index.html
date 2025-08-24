@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Picker Game</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#f97316', // Orange
+              secondary: '#ef4444', // Red
+              accent: '#facc15', // Yellow
+            },
+            fontFamily: {
+              block: ['"Fredoka One"', 'cursive'],
+              sans: ['Inter', 'sans-serif'],
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inter&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Rombo Motion (tailwindcss-motion) -->
+    <script src="https://cdn.jsdelivr.net/npm/tailwindcss-motion@latest/dist/motion.min.js"></script>
+    <script type="module" crossorigin src="/ColorGrid_Game/assets/index-Cgk8Cn8a.js"></script>
+    <link rel="stylesheet" crossorigin href="/ColorGrid_Game/assets/index-CefVYkL8.css">
+  </head>
+  <body class="bg-gradient-to-br from-red-800 via-red-700 to-red-800 text-white font-sans min-h-screen flex items-center justify-center">
+    <div id="root" class="p-4 w-full max-w-xl"></div>
+  </body>
+</html>
